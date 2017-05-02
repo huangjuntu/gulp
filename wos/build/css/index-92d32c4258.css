@@ -1,0 +1,54 @@
+body {
+	color: #000000;
+	background-color: #ff6600;
+	background-image: url(../images/bg.jpeg);
+}
+
+header {
+	color: #000000 !important;
+	background-color: #ff0000;
+	background-image: url(../images/spritesheet.png);
+	background-position: -1447px -1186px;
+	height: 100px;
+	width: 100%;
+}
+
+.face-1 {
+	background-image: url(../images/spritesheet.png);
+	background-position: -1822px -1186px;
+	background-size: 100% 100%;
+	border: 1px solid red;
+	height: 200px;
+	width: 200px;
+	float: left;
+}
+
+.face-2 {
+	background-image: url(../images/spritesheet.png);
+	background-position: -1447px -0px;
+	background-size: 100% 100%;
+	border: 1px solid red;
+	height: 200px;
+	width: 200px;
+	float: left;
+}
+
+.face-3 {
+	background-image: url(../images/spritesheet.png);
+	background-position: -0px -0px;
+	background-size: 100% 100%;
+	border: 1px solid red;
+	height: 200px;
+	width: 200px;
+	float: left;
+}
+
+.face-4 {
+	background-image: url(../images/spritesheet.png);
+	background-position: -0px -1371px;
+	background-size: 100% 100%;
+	border: 1px solid red;
+	height: 200px;
+	width: 200px;
+	float: left;
+}

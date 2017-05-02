@@ -1,0 +1,39 @@
+header {
+  color: #000000 !important;
+  background-color: #ff0000;
+  background-image: url(../images/school.png);
+  height: 100px;
+  width: 100%;
+}
+.face-1 {
+  background-image: url(../images/1.png);
+  background-size: 100% 100%;
+  border: 1px solid red;
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+.face-2 {
+  background-image: url(../images/2.png);
+  background-size: 100% 100%;
+  border: 1px solid red;
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+.face-3 {
+  background-image: url(../images/3.png);
+  background-size: 100% 100%;
+  border: 1px solid red;
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+.face-4 {
+  background-image: url(../images/4.png);
+  background-size: 100% 100%;
+  border: 1px solid red;
+  height: 200px;
+  width: 200px;
+  float: left;
+}

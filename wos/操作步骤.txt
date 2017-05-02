@@ -1,0 +1,56 @@
+
+第一步：npm gulp clean   //删除文件夹build 和rev
+第二步：npm gulp    //基本命令
+npm gulp temp    //进行文件判断
+
+但是进行完前两步后会出现部分图片没有加载出来，刷新就行了，目前不知道哪的问题！
+
+--------------------------------------------------------------------------------------
+参考英文网站：gulpjs.com
+
+安装node, node安装完后npm也会一起安装
+
+文件夹为：wos
+
+$npm install gulp-cli -g      全局安装gulp（其它系统要加上sudo）
+$npm init -y                  进入wos目录，初始化（文件夹内出现package.json）
+$npm install gulp -D          安装开发依赖  -D为--save-dev的缩写（node_modules文件夹自动生成）
+$touch gulpfile.js            新建gulpfile.js文件（以后的操作都在这里面）
+注意：
+创建文件夹-$md/$mkdir
+创建空文件夹-$type null>xx.txt
+删除文件夹-$rd/$rmdir
+
+创建非空文件夹-$echo myname>a.txt
+删除文件-del myfile.txt
+
+$gulp --help
+
+
+环境搭建就到这里了。下面是主要目录
+
+wos
+    build
+        --css
+            index-xxxxxx.css
+        --images
+            ...
+        --js
+            index.min.js
+        --index.html
+    dist
+        --css
+            index-xxxxxx.css
+    node_modules
+    rev
+        index.min.js
+    src
+        --css
+        --images
+        --js
+        --index.html
+    .project
+    gulpfile.js
+    package.json
+
+
